@@ -1,0 +1,23 @@
+.first{
+    animation: animacija1 1.5s ease-in-out forwards;
+}
+
+@keyframes animacija1 {
+    100%{ transform: translateX(0) ;}   
+}
+
+.second{
+    animation: animacija2 1.5s ease-in-out 1.5s forwards;
+}
+
+@keyframes animacija2 {
+    100%{transform:  translateX(0);}   
+}
+
+.third{
+    animation: animacija3 1.5s ease-in-out 3s forwards;
+}
+
+@keyframes animacija3 {
+    100%{transform:  translateX(0);}   
+}
